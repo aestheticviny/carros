@@ -7,12 +7,12 @@ export default function app(){
     return(
 
       <main className="nin-h-svh bg-offwhitebg py-20 px-6 antialiased lg:flex justify-center itens-center">
-        <section className="lg:flex max-w-[920px]">
+        <div className="lg:flex max-w-[920px]">
           <Sedans />
           <Suvs />
           <Luxuosos />
 
-        </section>
+        </div>
       </main>
     )
 
